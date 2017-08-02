@@ -1,0 +1,159 @@
+/*
+.wrapper {
+    min-width: 1100px;
+    overflow: hidden;
+}
+*/
+
+.section {
+/*
+    width: 100%;
+    height: 100vh;
+    min-height: 650px;
+    background-repeat: no-repeat;
+    background-size: cover;
+*/
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.section__wrapper {
+    margin: 0 auto;
+    width: 1100px;
+    min-height: 650px;
+    height: 100vh;
+}
+
+.section_first {
+    background-image: url(images/video-bg.png);
+}
+
+.first-header {
+    padding-top: 10px;
+    height: 69px;
+}
+
+.first-logo {
+    background-image: url(images/logo.png);
+    width: 92px;
+    height: 100%;
+    display: inline-block;
+    margin-left: 75px;
+}
+
+.first-navigation {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 13px;
+    line-height: 69px;
+}
+
+.first-header_color {
+    display: inline-block;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: 'Ubuntu-Medium';
+    line-height: 30px;
+    font-size: 13px;
+}
+
+.menu__item {
+    display: inline-block;
+}
+
+.menu-item-link {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.menu-item-link:after {
+    content: "•";
+    display: inline-block; 
+}
+
+.first-button-wrap {
+    line-height: 69px;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.first-button {
+    width: 97px;
+    height: 35px;
+    background-color: #e45028;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.first-button:hover {
+    background-color: #c1401e;
+}
+
+.first-button-link {
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    cursor: pointer;
+    display: block;
+    text-align: center;
+    line-height: 35px;
+}
+
+.first-main__greeting-image {
+    display: inline-block;
+}
+
+.first-main__greeting-text {
+    display: inline-block;
+}
+
+.first-main__greeting-text-one {
+    text-transform: uppercase;
+    color: #f9b43b;
+    font-family: 'Gagalin';
+    line-height: 77px;
+    font-size: 72px;
+    display: block;
+    margin-bottom: 25px;
+}
+
+.first-main__greeting-text-two {
+    font-family: 'LifehackMedium';
+    color: #fff;
+    font-size: 65px;
+    display: block;
+    line-height: 60px;
+}
+
+
+/*******SECOND*******/
+
+.section_second-section {
+    background-image: url(images/tomato-31.png);
+}
+
+.section_third-section {
+    background: -webkit-linear-gradient(90deg, #f9b43b 0%, #eb8c38 48%, #f9b43b 74%);
+}
+
+.section_fourth-section {
+    
+}
+
+.section_fifth-section {
+   
+}
+
+.section_sixth-section {
+    
+}
+
+.section_seventh-section {
+    
+}
+
+.section_eighth-section {
+    
+}
+
+
