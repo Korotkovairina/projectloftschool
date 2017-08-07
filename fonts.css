@@ -6,6 +6,13 @@
 }
 
 @font-face {
+    font-family: 'Ubuntu-Light';
+    src: url(fonts/Ubuntu/Ubuntu-Light.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
     font-family: 'Gagalin';
     src: url(fonts/Gagalin/Gagalin-Regular.otf) format('opentype');
     font-weight: normal;
@@ -18,3 +25,4 @@
     font-weight: normal;
     font-style: normal;
 }
+
