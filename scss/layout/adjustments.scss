@@ -1,0 +1,31 @@
+.wrapper {
+    min-width: $content_width;
+    overflow: hidden;
+    min-height: 100%;
+    
+    &:after {
+        content: "";
+        display: block;
+        height: $footer_height;
+    }
+}
+
+.section {
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-width: $content_width;
+}
+
+.section__wrapper {
+    margin: 0 auto;
+    width: $content_width;
+    min-height: 650px;
+    height: 100vh;
+    position: relative;
+}
+
+.footer {
+    height: $footer_height;
+    margin-top: -$footer_height;
+}
+

@@ -1,0 +1,8 @@
+.mini-map {
+  position: fixed;
+  right: 45px;
+  top: 90px; }
+  .mini-map__list {
+    padding: 0;
+    margin: 0;
+    list-style: none; }
